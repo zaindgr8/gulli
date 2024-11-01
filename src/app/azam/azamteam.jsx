@@ -9,12 +9,12 @@ const Azamteam = () => {
             {/* Start Section Header Title */}
             <div className="section-header text-center text-xl-start">
               {/* Start Subtitle */}
-              <div className="bg-gray-900 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-white">
+              <div className="bg-black d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-white">
                 Proud Realtors
               </div>
               {/* /. End Subtitle */}
               {/* Start Section Header title */}
-              <h2 className="text-gray-900 text-4xl font-bold mb-3 text-capitalize">
+              <h2 className="text-black text-4xl font-bold mb-3 text-capitalize">
                 Meet My Team
               </h2>
               {/* /.End Section Header Title */}

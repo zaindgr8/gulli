@@ -12,7 +12,7 @@ const azamprojects = () => {
               data-aos="fade-down"
             >
               {/* Start Subtitle */}
-              <div className="bg-gray-900 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-white">
+              <div className="bg-black d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-white">
                 COLLABORATIONS
               </div>
               {/* /. End Subtitle */}

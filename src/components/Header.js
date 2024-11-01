@@ -54,7 +54,7 @@ export default function Header() {
   }, []);
   return (
     <>
-      <div className="d-none d-lg-block topbar-bg bg-gray-800 text-white">
+      <div className="d-none d-lg-block topbar-bg bg-black text-white">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-4 col-lg-3 col-xl-4">

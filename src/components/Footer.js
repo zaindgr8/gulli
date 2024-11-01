@@ -11,7 +11,7 @@ export default function Footer() {
         {/* Start Footer */}
         <ScrollTop />
         <footer
-          className="main-footer footer-dark background-image"
+          className="main-footer bg-black text-white background-image"
           data-image-src="assets/img/gulli/1.jpeg/"
         >
           <div className="container pt-4">
@@ -62,7 +62,7 @@ export default function Footer() {
             <div className="row">
               <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4 py-3 py-md-5 pe-xl-5 text-center">
                 <div className="footer-about">
-                  <h3 className="fs-20 fw-semibold link-title mb-3 position-relative">
+                  <h3 className="text-white fs-20 fw-semibold link-title mb-3 position-relative">
                     Gulraiz Naveed
                   </h3>
                   <div className=" mb-3 d-inline-block">
@@ -91,16 +91,14 @@ export default function Footer() {
                   </Link>
                 </div>
               </div>
-              
-            
 
               <div className="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 py-3 py-md-5 d-lg-none d-xl-block">
-                <h3 className="fs-20 fw-semibold link-title mb-3 position-relative">
+                <h3 className="text-white  fs-20 fw-semibold link-title mb-3 position-relative">
                   Office Location
                 </h3>
                 {/* /Start Footer Link  */}
 
-                <ul className="footer-link list-unstyled menu mb-0">
+                <ul className="footer-link list-unstyled menu mb-0 text-white ">
                   <li className="mb-2">
                     <Link href="" className="link d-block">
                       <p>The Royal Peak, Azizi Rivera, Dubai</p>
@@ -110,7 +108,7 @@ export default function Footer() {
                 {/* /.End Footer Link */}
               </div>
               <div className="col-6 col-sm-4 col-md-4 col-lg col-xl-2 py-3 py-md-5">
-                <h3 className="fs-20 fw-semibold link-title mb-3 position-relative">
+                <h3 className="fs-20 fw-semibold link-title mb-3 position-relative text-white ">
                   Connect with us
                 </h3>
                 {/* /Start Social Icon */}
