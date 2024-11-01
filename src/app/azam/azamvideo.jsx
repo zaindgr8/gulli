@@ -13,7 +13,7 @@ const azamvideo = () => {
       <div className="row g-0">
         <div
           className="col-xl-4 d-xl-flex align-items-xl-center bg-gray-900 px-3 py-5 px-sm-5 px-md-3 px-xxl-5 counter-content__two background-image"
-          data-image-src="/assets/img/gulli/5.jpg"
+          data-image-src="/assets/img/gulli/5.jpeg"
         >
           <div className="row g-0 text-center position-relative counter-content__dot">
             <div className="col-6 col-md-3 col-xl-6 p-3 p-sm-4 p-md-3 p-xxl-5">

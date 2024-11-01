@@ -69,7 +69,7 @@ const Azamvision = () => {
                   >
                     <div className="rounded-4 overflow-hidden position-relative">
                       <img
-                        src="assets/img/gulli/1.jpg"
+                        src="assets/img/gulli/1.jpeg"
                         className="img-fluid position-relative image-parallax z-1"
                         alt=""
                       />
@@ -86,7 +86,7 @@ const Azamvision = () => {
                   data-aos-delay={200}
                 >
                   <img
-                    src="assets/img/gulli/3.jpg"
+                    src="assets/img/gulli/3.jpeg"
                     className="img-fluid rounded-4 image-parallax"
                     alt=""
                   />

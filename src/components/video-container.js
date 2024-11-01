@@ -17,7 +17,7 @@ export default function VideoContainer() {
         <div className="about-video home-about_video position-relative">
           {/* Image Parallax */}
           <img
-            src="assets/img/gulli/2.jpg"
+            src="assets/img/gulli/2.jpeg"
             alt=""
             className="about-img image-parallax"
           />

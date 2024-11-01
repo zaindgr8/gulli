@@ -50,7 +50,7 @@ const FSection = () => {
             >
               {/* <Image src={slide.image} className="object-cover" layout="fill" alt={slide.text} /> */}
               <Image
-                src="/assets/img/gulli/6.jpg"
+                src="/assets/img/gulli/6.jpeg"
                 className="object-cover"
                 layout="fill"
                 alt={slide.text}

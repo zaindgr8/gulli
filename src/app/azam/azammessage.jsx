@@ -10,7 +10,7 @@ const Azammessage = () => {
             <div className="position-relative">
               <div className="line-shape" />
               <img
-                src="assets/img/gulli/4.jpg"
+                src="assets/img/gulli/4.jpeg"
                 className="img-fluid rounded-3 position-relative"
                 alt=""
               />
@@ -21,7 +21,7 @@ const Azammessage = () => {
               {/* Image */}
               <div className="col-12">
                 <img
-                  src="assets/img/gulli/8.jpg"
+                  src="assets/img/gulli/8.jpeg"
                   className="img-fluid rounded-3"
                   alt=""
                 />
@@ -29,7 +29,7 @@ const Azammessage = () => {
               {/* Image */}
               <div className="col-12">
                 <img
-                  src="assets/img/gulli/5.jpg"
+                  src="assets/img/gulli/5.jpeg"
                   className="img-fluid rounded-3"
                   alt=""
                 />

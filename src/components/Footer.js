@@ -12,7 +12,7 @@ export default function Footer() {
         <ScrollTop />
         <footer
           className="main-footer footer-dark background-image"
-          data-image-src="assets/img/gulli/1.jpg/"
+          data-image-src="assets/img/gulli/1.jpeg/"
         >
           <div className="container pt-4">
             {/* Start Card Contact */}
@@ -51,7 +51,7 @@ export default function Footer() {
               {/* Start Card Background Image */}
               <div className="card-sketch w-full mb-[8vh]">
                 <img
-                  src="assets/img/gulli/1.jpg/"
+                  src="assets/img/gulli/1.jpeg/"
                   alt=""
                   className="w-full h-full object-cover"
                 />
@@ -68,7 +68,7 @@ export default function Footer() {
                   <div className=" mb-3 d-inline-block">
                     {/* Start Qr Code Image */}
                     <img
-                      src="assets/img/gulli/7.jpg/"
+                      src="assets/img/gulli/7.jpeg/"
                       className="mb-0 object-cover h-[20vh] rounded-lg"
                       height="146"
                       width="146"
