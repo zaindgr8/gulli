@@ -18,15 +18,15 @@ const azamprojects = () => {
               {/* /. End Subtitle */}
               {/* Start Section Header title */}
               <h2 className="font-bold text-5xl mb-3 text-gray-900 ">
-                Witness our achievements!
+                Our Reliable Partners!
               </h2>
               {/* /.End Section Header Title */}
               {/* Start Section Header Sub Title */}
               <div className="sub-title fs-16">
-                We exclusively collaborate with credible developers, sealing
-                multimillion-AED deals in the UAE that bring mutual benefits to
-                both clients and developers. Discover our partner projects
-                below.
+                We work exclusively with reputable developers, finalizing
+                multimillion-AED agreements in the UAE that offer shared
+                advantages for both our clients and the developers. Explore our
+                partnered projects below.
               </div>
               {/* /.End Section Header Sub Title */}
             </div>
@@ -54,8 +54,6 @@ const azamprojects = () => {
               <div className="accordion bottom-0 d-flex flex-column h-100 justify-content-end mask overflow-hidden position-absolute start-0 w-100 z-1">
                 <div className="mask-content m-3">
                   <h2>EMAAR</h2>
-
-                 
                 </div>
               </div>
             </Link>
@@ -81,8 +79,6 @@ const azamprojects = () => {
               <div className="accordion bottom-0 d-flex flex-column h-100 justify-content-end mask overflow-hidden position-absolute start-0 w-100 z-1">
                 <div className="mask-content m-3">
                   <h2>AZIZI DEVELOPERS</h2>
-
-                  
                 </div>
               </div>
             </Link>
@@ -108,8 +104,6 @@ const azamprojects = () => {
               <div className="accordion bottom-0 d-flex flex-column h-100 justify-content-end mask overflow-hidden position-absolute start-0 w-100 z-1">
                 <div className="mask-content m-3">
                   <h2>ELLINGTON PROPERTIES</h2>
-
-                 
                 </div>
               </div>
             </Link>
@@ -135,7 +129,6 @@ const azamprojects = () => {
               <div className="accordion bottom-0 d-flex flex-column h-100 justify-content-end mask overflow-hidden position-absolute start-0 w-100 z-1">
                 <div className="mask-content m-3">
                   <h2>DANUBE</h2>
-                 
                 </div>
               </div>
             </Link>
@@ -162,7 +155,6 @@ const azamprojects = () => {
               <div className="accordion bottom-0 d-flex flex-column h-100 justify-content-end mask overflow-hidden position-absolute start-0 w-100 z-1">
                 <div className="mask-content m-3">
                   <h2>SOBHA</h2>
-                  
                 </div>
               </div>
             </Link>
@@ -188,7 +180,6 @@ const azamprojects = () => {
               <div className="accordion bottom-0 d-flex flex-column h-100 justify-content-end mask overflow-hidden position-absolute start-0 w-100 z-1">
                 <div className="mask-content m-3">
                   <h2>BINGHATTI DEVELOPERS</h2>
-                  
                 </div>
               </div>
             </Link>
@@ -196,13 +187,13 @@ const azamprojects = () => {
           </div>
         </div>
         {/* <div className="text-center mt-5" data-aos="fade-up"> */}
-          {/* Start Button */}
-          {/* <button className="btn bg-blue-900 text-white hover:bg-blue-500 btn-lg d-inline-flex hstack gap-2">
+        {/* Start Button */}
+        {/* <button className="btn bg-blue-900 text-white hover:bg-blue-500 btn-lg d-inline-flex hstack gap-2">
             <span>Browse More Projects</span>
             <span className="vr" />
             <i className="fa-arrow-right fa-solid fs-14" />
           </button> */}
-          {/* /.End Button */}
+        {/* /.End Button */}
         {/* </div> */}
       </div>
     </div>

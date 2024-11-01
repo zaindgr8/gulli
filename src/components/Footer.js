@@ -12,7 +12,7 @@ export default function Footer() {
         <ScrollTop />
         <footer
           className="main-footer footer-dark background-image"
-          data-image-src="assets/img/azdp.jpeg"
+          data-image-src="assets/img/gulli/1.jpg/"
         >
           <div className="container pt-4">
             {/* Start Card Contact */}
@@ -23,8 +23,8 @@ export default function Footer() {
               <div className="row align-items-center position-relative z-1">
                 <div className="col-md-10 col-lg-8 col-xl-6">
                   <h2 className="display-6 fw-bold text-capitalize text-gray-900">
-                    Exploring opportunities in our affiliate marketing program?
-                    Join us today!
+                    Interested in exploring real estate opportunities? Sign up
+                    with us today!
                   </h2>
                   <div className="row g-4 align-items-center mt-1">
                     <div className="col-auto">
@@ -33,7 +33,7 @@ export default function Footer() {
                         className=" btn-outline-default border-0"
                       >
                         <i className="fas text-gray-900 mr-2 fa-mobile"></i>
-                        <span className="text-gray-900">+971 52 130 7749</span>
+                        <span className="text-gray-900">+971 58 522 0047</span>
                       </button>
                     </div>
                     <div className="col-auto">
@@ -42,7 +42,7 @@ export default function Footer() {
                         className="fs-17 l-spacing-1 text-gray-900"
                       >
                         <i className="fas fa-envelope fs-15 mr-2"></i>
-                        <span>hello@azamcreates.com</span>
+                        <span>ceo@therealtaholic.com</span>
                       </Link>
                     </div>
                   </div>
@@ -51,7 +51,7 @@ export default function Footer() {
               {/* Start Card Background Image */}
               <div className="card-sketch w-full mb-[8vh]">
                 <img
-                  src="assets/img/azmot.jpeg"
+                  src="assets/img/gulli/1.jpg/"
                   alt=""
                   className="w-full h-full object-cover"
                 />
@@ -63,12 +63,12 @@ export default function Footer() {
               <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4 py-3 py-md-5 pe-xl-5 text-center">
                 <div className="footer-about">
                   <h3 className="fs-20 fw-semibold link-title mb-3 position-relative">
-                    Muhammad Azam Tariq
+                    Gulraiz Naveed
                   </h3>
                   <div className=" mb-3 d-inline-block">
                     {/* Start Qr Code Image */}
                     <img
-                      src="assets/img/azfooter.jpeg"
+                      src="assets/img/gulli/7.jpg/"
                       className="mb-0 object-cover h-[20vh] rounded-lg"
                       height="146"
                       width="146"
@@ -81,38 +81,18 @@ export default function Footer() {
                   </p>
                   <Link className="email-link d-block fw-medium mb-1" href="#">
                     <i className="fa-solid fa-phone me-2"></i>
-                    <span className="text-gray-400">(+971) 521 307 749</span>
+                    <span className="text-gray-400">+971 58 522 0047</span>
                   </Link>
                   <Link className=" email-link d-block fw-medium" href="#">
                     <i className="fa-solid fa-envelope me-2"></i>
-                    <span className="text-gray-400">hello@azamcreates</span>
+                    <span className="text-gray-400">
+                      ceo@therealtaholic.com
+                    </span>
                   </Link>
                 </div>
               </div>
-              <div className="col-6 col-sm-6 col-md-6 col-lg-auto col-xl-2 py-3 py-md-5">
-                <h3 className="fs-20 fw-semibold link-title mb-3 position-relative">
-                  Our Pages
-                </h3>
-                {/* /Start Footer Link  */}
-                <ul className="footer-link list-unstyled menu mb-0">
-                  <li className="mb-2">
-                    <Link href="" className="link d-block">
-                      Home Page
-                    </Link>
-                  </li>
-                  <li className="mb-2">
-                    <Link href="" className="link d-block">
-                      About Us
-                    </Link>
-                  </li>
-                  <li className="mb-2">
-                    <Link href="" className="link d-block">
-                      Contact Us
-                    </Link>
-                  </li>
-                </ul>
-                {/* /.End Footer Link  */}
-              </div>
+              
+            
 
               <div className="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 py-3 py-md-5 d-lg-none d-xl-block">
                 <h3 className="fs-20 fw-semibold link-title mb-3 position-relative">
@@ -123,7 +103,7 @@ export default function Footer() {
                 <ul className="footer-link list-unstyled menu mb-0">
                   <li className="mb-2">
                     <Link href="" className="link d-block">
-                      <p>CRESCO, Business Bay, Dubai</p>
+                      <p>The Royal Peak, Azizi Rivera, Dubai</p>
                     </Link>
                   </li>
                 </ul>
@@ -137,7 +117,7 @@ export default function Footer() {
                 <ul className="list-unstyled social-icon">
                   <li>
                     <Link
-                      href="#"
+                      href="https://www.instagram.com/therealtaholic/profilecard/?igsh=MTgzOGxkcmN5OHMxeg=="
                       className="align-items-center d-flex flex gap-x-3"
                     >
                       <FaInstagram className="text-white text-2xl" />
@@ -147,7 +127,7 @@ export default function Footer() {
 
                   <li>
                     <Link
-                      href="#"
+                      href="https://youtube.com/@therealtaholic?si=W3WcaY9oPd4LLRaD"
                       className="align-items-center d-flex flex gap-x-3"
                     >
                       <AiOutlineYoutube className="text-white text-2xl" />
@@ -156,7 +136,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      href="#"
+                      href={`https://wa.me/971585220047`}
                       className="align-items-center d-flex gap-x-3"
                     >
                       <SiWhatsapp className="text-white text-2xl" />
@@ -175,7 +155,14 @@ export default function Footer() {
               <div className="align-items-center row mb-2">
                 {/* Start Copy Rights Text */}
                 <div className="col-sm-auto copy text-sm">
-                  © 2024 AZAM CREATES - ALL RIGHTS RESERVED
+                  © 2024 Made By{" "}
+                  <a
+                    className="font-bold text-red-500"
+                    href="https://devmatesolutions.com/"
+                  >
+                    DEVMATE SOLUTIONS
+                  </a>{" "}
+                  - ALL RIGHTS RESERVED
                 </div>
                 {/* /.End Copy Rights Text */}
               </div>

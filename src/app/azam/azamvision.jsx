@@ -15,37 +15,36 @@ const Azamvision = () => {
             {/* Start Title */}
             <h1 className="hero-header_title display-2 fw-bold text-capitalize">
               <p className="text-gray-800">
-                PROPERTY
-                <br />
+                HOMESTEAD <br />
               </p>
-              <p className="text-gray-900">VISIONARY</p>
+              <p className="text-gray-900">DREAMER</p>
             </h1>
             {/* /.End Title */}
             {/* Start Text */}
             <p className="fs-18 mb-5 text-gray-800">
-              Azam is the visionary behind CRESCO RE, the dynamic real estate
-              brokerage positioned at the convergence of technology, media,
-              entertainment, and education.
+              Gulraiz is the visionary leader of The Royal Peak RE, a premier
+              real estate brokerage in Dubai specializing in secondary and
+              off-plan properties. With expertise in buying, selling, and
+              renting!
             </p>
             {/* /.End Text */}
             {/* Start Main Search Content */}
             {/* /.End Main Search Content */}
             <div className="flex flex-col text-gray-800 gap-y-3">
-              <p>total transactions in UAE Real Estate</p>
+              <p>Over AED 20 Million in Transactions</p>
               <span className="flex gap-x-4">
                 <h1 className="text-gray-900 font-bold text-4xl">
-                  AED 1 Billion +
+                  AED 20 Million +
                 </h1>
                 <p>
-                  92% Closing Rate <br />
-                  Successful UAE Realtor
+                  85% Closing Rate <br />
+                  Friendly Dubai Realtor
                 </p>
               </span>
               <div className="border-l border-1 h-26 border-gray-800"></div>
               <div>
                 <p className="text-gray-800 font-semibold">
-                  Rank # 1 At Cresco Real Estate as Sales HeadSales & Operations
-                  Director in 2024
+                  Ranked #1 at The Royal Peak Real Estate as Sales Head in 2024
                 </p>
                 <span className="text-sm text-gray-800">
                   By the team and CEO
@@ -53,11 +52,9 @@ const Azamvision = () => {
               </div>
               <div>
                 <p className="text-gray-800 font-semibold ">
-                  50 Million+ Views on Youtube & Instagram in 2024
+                  Real Estate & Social Media Influencer & Coach
                 </p>
-                <span className="text-sm text-gray-800">
-                  Real Estate social media influencer & coach
-                </span>
+                {/* <span className="text-sm text-gray-800"></span> */}
               </div>
             </div>
           </motion.div>
@@ -72,7 +69,7 @@ const Azamvision = () => {
                   >
                     <div className="rounded-4 overflow-hidden position-relative">
                       <img
-                        src="assets/img/am1.jpeg"
+                        src="assets/img/gulli/1.jpg"
                         className="img-fluid position-relative image-parallax z-1"
                         alt=""
                       />
@@ -89,7 +86,7 @@ const Azamvision = () => {
                   data-aos-delay={200}
                 >
                   <img
-                    src="assets/img/am3.jpeg"
+                    src="assets/img/gulli/3.jpg"
                     className="img-fluid rounded-4 image-parallax"
                     alt=""
                   />

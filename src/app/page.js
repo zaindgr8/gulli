@@ -24,10 +24,10 @@ export default function HomeTwo() {
       <Azamvision />
       <Azamvideo />
       <div className="px-5 mt-4">
-        <Corousal />
+        {/* <Corousal /> */}
       </div>
       <AzamProjects />
-      <Azamteam />
+      {/* <Azamteam /> */}
       <Azammessage />
     </Layout>
   );

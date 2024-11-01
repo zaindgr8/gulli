@@ -13,13 +13,13 @@ const azamvideo = () => {
       <div className="row g-0">
         <div
           className="col-xl-4 d-xl-flex align-items-xl-center bg-gray-900 px-3 py-5 px-sm-5 px-md-3 px-xxl-5 counter-content__two background-image"
-          data-image-src="assets/img/png-img/section-bg.png"
+          data-image-src="/assets/img/gulli/5.jpg"
         >
           <div className="row g-0 text-center position-relative counter-content__dot">
             <div className="col-6 col-md-3 col-xl-6 p-3 p-sm-4 p-md-3 p-xxl-5">
               <Link
                 target="_blank"
-                href="https://www.instagram.com/azamcreates/"
+                href="https://www.instagram.com/therealtaholic/profilecard/?igsh=MTgzOGxkcmN5OHMxeg=="
               >
                 <GrInstagram className="fa fa-igloo fa-solid display-4 mb-3 text-white fw-black" />
               </Link>
@@ -30,15 +30,18 @@ const azamvideo = () => {
                     decimals={""}
                     decimal=""
                     start={0}
-                    end={50}
+                    end={10}
                   />
-                  M+
+                  K+
                 </strong>
                 <span className="text-lg">Views</span>
               </p>
             </div>
             <div className="col-6 col-md-3 col-xl-6 p-3 p-sm-4 p-md-3 p-xxl-5">
-              <Link target="_blank" href="https://www.youtube.com/@azamcreates">
+              <Link
+                target="_blank"
+                href="hhttps://youtube.com/@therealtaholic?si=W3WcaY9oPd4LLRaD"
+              >
                 <FaYoutube className="fa-solid fa-user-group display-4 mb-3 text-white fw-black" />
               </Link>
               <p className="fs-1 text-white mb-0 flex flex-col">
@@ -48,9 +51,9 @@ const azamvideo = () => {
                     decimals={""}
                     decimal=""
                     start={0}
-                    end={70}
+                    end={5}
                   />
-                  M+
+                  K+
                 </strong>
                 <span className="text-lg">Views</span>
               </p>
@@ -65,8 +68,9 @@ const azamvideo = () => {
                       decimals={1}
                       decimal="."
                       start={0.0}
-                      end={1}
-                    />B+
+                      end={20}
+                    />
+                    M+
                   </span>
                 </strong>
                 <span className="text-lg">Transactions</span>
@@ -83,7 +87,8 @@ const azamvideo = () => {
                       decimal=""
                       start={0}
                       end={593}
-                    />+
+                    />
+                    +
                   </strong>
                 </strong>
                 <span className="text-lg">Clients</span>

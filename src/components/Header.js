@@ -61,15 +61,21 @@ export default function Header() {
               <Link href="/" className="headerLogo">
                 <img
                   className="h-[20vh] mb-4"
-                  src="assets/img/a5a.png"
+                  src="assets/img/gulli/glogo1.png"
                   alt=""
                 />
               </Link>
             </div>
             <div className="col-md-8 col-lg-9 col-xl-8 d-flex justify-content-end align-items-center">
-              <PiFacebookLogoFill className="w-[4vh] h-[4vh] ms-4" />
-              <BiLogoInstagramAlt className="w-[4vh] h-[4vh] ms-4" />
-              <AiFillYoutube className="w-[4vh] h-[4vh] ms-4" />
+              <Link href="https://www.facebook.com/p/the-realtaholic-61555243659353/?mibextid=LQQJ4d">
+                <PiFacebookLogoFill className="w-[4vh] h-[4vh] ms-4" />
+              </Link>
+              <Link href="https://www.instagram.com/therealtaholic/profilecard/?igsh=MTgzOGxkcmN5OHMxeg==">
+                <BiLogoInstagramAlt className="w-[4vh] h-[4vh] ms-4" />
+              </Link>
+              <Link href="https://youtube.com/@therealtaholic?si=W3WcaY9oPd4LLRaD">
+                <AiFillYoutube className="w-[4vh] h-[4vh] ms-4" />
+              </Link>
             </div>
           </div>
         </div>
@@ -87,8 +93,8 @@ export default function Header() {
               className=" border-end navbar-brand pe-3 pe-sm-4 py-0"
               href="/"
             >
-              <img className="logo-dark" src="assets/img/a5a.png" alt="" />
-              <img className="logo-white" src="assets/img/a5a.png" alt="" />
+              <img className="logo-dark" src="assets/img/glogo.png" alt="" />
+              <img className="logo-white" src="assets/img/glogo.png" alt="" />
             </Link>
             <div className="d-flex gap-1 ms-lg-5">
               <Link
@@ -98,14 +104,13 @@ export default function Header() {
                 className="align-items-center btn cart-button d-none d-xl-flex ms-2 ms-lg-0"
               >
                 <span className="ms-2 text-gray-800 text-md">
-                  Premium Real Estate Consultant
+                  Making Your Real Estate Goals in Dubai Come True
                 </span>
               </Link>
               <Link
                 href="/"
                 className="btn btn-primary d-none d-sm-inline-block d-xl-none"
-              >
-              </Link>         
+              ></Link>
             </div>
           </nav>
         </div>

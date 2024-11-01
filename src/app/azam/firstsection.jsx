@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const slides = [
   {
-    image: "/azm_b2.jpeg",
+    image: "/glogo.png",
   
   },
   // {
@@ -50,7 +50,7 @@ const FSection = () => {
             >
               {/* <Image src={slide.image} className="object-cover" layout="fill" alt={slide.text} /> */}
               <Image
-                src="/azm.jpeg"
+                src="/assets/img/gulli/6.jpg"
                 className="object-cover"
                 layout="fill"
                 alt={slide.text}

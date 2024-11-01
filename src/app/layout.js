@@ -8,12 +8,12 @@ import ImportBs from './importBs';
 
 const inter = Inter_Tight({ subsets: ['latin'] })
 export const metadata = {
-  title: "Azam Creates",
-  description: "Azam Creates- Your Premium Realty Consultant!",
+  title: "The Realtaholic",
+  description: "Helping you achieve your Real Estate Goals in Dubai!",
   icons: {
-    icon: ["/a5b.png?v=4"],
-    apple: ["/a5b.png?v4"],
-    shortcut: ["/a5b.png"],
+    icon: ["/glogo.png?v=4"],
+    apple: ["/glogo.png?v4"],
+    shortcut: ["/glogo.png"],
   },
 };
 
