@@ -86,7 +86,7 @@ export default function Footer() {
                   <Link className=" email-link d-block fw-medium" href="#">
                     <i className="fa-solid fa-envelope me-2"></i>
                     <span className="text-gray-400">
-                      ceo@therealtaholic.com
+                      therealtaholic@gmail.com
                     </span>
                   </Link>
                 </div>

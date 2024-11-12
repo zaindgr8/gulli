@@ -27,7 +27,7 @@ export default function HomeTwo() {
         {/* <Corousal /> */}
       </div>
       <AzamProjects />
-      {/* <Azamteam /> */}
+      <Azamteam />
       <Azammessage />
     </Layout>
   );
