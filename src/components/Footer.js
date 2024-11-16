@@ -42,7 +42,7 @@ export default function Footer() {
                         className="fs-17 l-spacing-1 text-gray-900"
                       >
                         <i className="fas fa-envelope fs-15 mr-2"></i>
-                        <span>ceo@therealtaholic.com</span>
+                        <span>therealtaholic@gmail</span>
                       </Link>
                     </div>
                   </div>
