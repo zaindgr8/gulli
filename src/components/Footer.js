@@ -156,21 +156,39 @@ export default function Footer() {
         </div>
 
         {/* Bottom Copyright & Disclaimer */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-zinc-500">
-          <div>
-            © {new Date().getFullYear()} <strong className="text-zinc-300 font-medium">The Realtaholic</strong> • Gulraiz Naveed. All rights reserved.
+        <div className="pt-8 flex flex-col gap-4 text-[11px] text-zinc-500">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div>
+              © {new Date().getFullYear()} <strong className="text-zinc-300 font-medium">The Realtaholic</strong> • Gulraiz Naveed. All rights reserved.
+            </div>
+
+            <div className="flex items-center gap-6">
+              <span>Dubai, United Arab Emirates</span>
+              <button
+                onClick={scrollToTop}
+                className="flex items-center gap-1.5 text-zinc-400 hover:text-gold-400 transition-colors"
+                aria-label="Scroll to top"
+              >
+                <span>Back to Top</span>
+                <FaArrowUp className="w-3 h-3" />
+              </button>
+            </div>
           </div>
 
-          <div className="flex items-center gap-6">
-            <span>Dubai, United Arab Emirates</span>
-            <button
-              onClick={scrollToTop}
-              className="flex items-center gap-1.5 text-zinc-400 hover:text-gold-400 transition-colors"
-              aria-label="Scroll to top"
+          {/* DevMate Solutions Branding */}
+          <div className="flex items-center justify-center gap-2 pt-2 border-t border-white/[0.04]">
+            <span className="text-zinc-600">Designed & Developed by</span>
+            <a
+              href="https://devmatesolutions.com"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-1.5 text-zinc-400 hover:text-gold-400 transition-colors font-semibold tracking-wide group"
             >
-              <span>Back to Top</span>
-              <FaArrowUp className="w-3 h-3" />
-            </button>
+              <span className="w-4 h-4 rounded bg-gold-500/20 border border-gold-500/30 flex items-center justify-center group-hover:bg-gold-500/30 transition-colors text-gold-400 text-[8px] font-black">D</span>
+              DevMate Solutions
+            </a>
+            <span className="text-zinc-700">•</span>
+            <span className="text-zinc-600">© {new Date().getFullYear()} devmatesolutions.com</span>
           </div>
         </div>
 
