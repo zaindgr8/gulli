@@ -1,173 +1,180 @@
+"use client";
+import React from "react";
 import Link from "next/link";
-import ScrollTop from "./scroll-top";
-import { MdLocationOn } from "react-icons/md";
-import { FaInstagram } from "react-icons/fa";
-import { AiOutlineYoutube } from "react-icons/ai";
-import { SiWhatsapp } from "react-icons/si";
+import { FaInstagram, FaYoutube, FaWhatsapp, FaArrowUp, FaFacebookF } from "react-icons/fa";
+import { HiMapPin, HiPhone, HiEnvelope, HiShieldCheck } from "react-icons/hi2";
 
 export default function Footer() {
-    return (
-      <>
-        {/* Start Footer */}
-        <ScrollTop />
-        <footer
-          className="main-footer bg-black text-white background-image"
-          data-image-src="assets/img/gulli/1.jpeg/"
-        >
-          <div className="container pt-4">
-            {/* Start Card Contact */}
-            <div
-              className="card-contact bg-white mb-4 mt-5 py-5 px-4 px-md-5 position-relative overflow-hidden rounded-3 shadow-lg"
-              data-aos="fade-down"
-            >
-              <div className="row align-items-center position-relative z-1">
-                <div className="col-md-10 col-lg-8 col-xl-6">
-                  <h2 className="display-6 fw-bold text-capitalize text-gray-900">
-                    Interested in exploring real estate opportunities? Sign up
-                    with us today!
-                  </h2>
-                  <div className="row g-4 align-items-center mt-1">
-                    <div className="col-auto">
-                      <button
-                        type="button"
-                        className=" btn-outline-default border-0"
-                      >
-                        <i className="fas text-gray-900 mr-2 fa-mobile"></i>
-                        <span className="text-gray-900">+971 58 522 0047</span>
-                      </button>
-                    </div>
-                    <div className="col-auto">
-                      <Link
-                        href="#"
-                        className="fs-17 l-spacing-1 text-gray-900"
-                      >
-                        <i className="fas fa-envelope fs-15 mr-2"></i>
-                        <span>therealtaholic@gmail</span>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* Start Card Background Image */}
-              <div className="card-sketch w-full mb-[8vh]">
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  return (
+    <footer className="bg-[#050507] border-t border-white/[0.08] text-zinc-400 relative overflow-hidden pt-16 pb-8">
+      {/* Subtle top glow line */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-[1px] bg-gradient-to-r from-transparent via-gold-500/40 to-transparent" />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        {/* Top Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12 pb-12 border-b border-white/[0.06]">
+          
+          {/* Col 1: Brand & Philosophy */}
+          <div className="lg:col-span-5 space-y-4">
+            <Link href="/" className="flex items-center gap-3 group inline-block">
+              <div className="w-10 h-10 rounded-full border border-gold-500/40 p-1 flex items-center justify-center bg-black/60">
                 <img
-                  src="assets/img/gulli/1.jpeg/"
-                  alt=""
-                  className="w-full h-full object-cover"
+                  src="/assets/img/gulli/glogo1.png"
+                  alt="The Realtaholic Logo"
+                  className="w-full h-full object-contain"
+                  onError={(e) => {
+                    e.currentTarget.src = "/glogo.png";
+                  }}
                 />
               </div>
-              {/* /.End Card Background Image */}
+              <div className="flex flex-col">
+                <span className="text-white font-bold tracking-[0.2em] text-sm uppercase">
+                  THE REALTAHOLIC
+                </span>
+                <span className="text-[10px] uppercase tracking-[0.25em] text-gold-500 font-medium">
+                  Gulraiz Naveed | Dubai
+                </span>
+              </div>
+            </Link>
+
+            <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed font-light max-w-md">
+              A premier private real estate advisory serving high-net-worth investors 
+              across Dubai’s most coveted off-plan developments, trophy penthouses, 
+              and waterfront estates. Sales Head at Cresco Real Estate Dubai.
+            </p>
+
+            <div className="flex items-center gap-3 pt-2">
+              <a
+                href="https://www.facebook.com/profile.php?id=61555243659353&mibextid=wwXIfr&mibextid=wwXIfr"
+                target="_blank"
+                rel="noreferrer"
+                className="w-9 h-9 rounded-full bg-white/[0.04] border border-white/10 flex items-center justify-center text-zinc-300 hover:text-gold-400 hover:border-gold-400/40 transition-colors"
+                aria-label="Facebook"
+              >
+                <FaFacebookF className="w-3.5 h-3.5" />
+              </a>
+              <a
+                href="https://www.instagram.com/therealtaholic?igsi=MTgzOGxkcmN5OHMxeg%3D%3D&utm_source=qr"
+                target="_blank"
+                rel="noreferrer"
+                className="w-9 h-9 rounded-full bg-white/[0.04] border border-white/10 flex items-center justify-center text-zinc-300 hover:text-gold-400 hover:border-gold-400/40 transition-colors"
+                aria-label="Instagram"
+              >
+                <FaInstagram className="w-4 h-4" />
+              </a>
+              <a
+                href="https://youtube.com/@therealtaholic?si=ss0o5FXyl4h3NWPc"
+                target="_blank"
+                rel="noreferrer"
+                className="w-9 h-9 rounded-full bg-white/[0.04] border border-white/10 flex items-center justify-center text-zinc-300 hover:text-gold-400 hover:border-gold-400/40 transition-colors"
+                aria-label="YouTube"
+              >
+                <FaYoutube className="w-4 h-4" />
+              </a>
+              <a
+                href="https://wa.me/971507771947"
+                target="_blank"
+                rel="noreferrer"
+                className="w-9 h-9 rounded-full bg-white/[0.04] border border-white/10 flex items-center justify-center text-zinc-300 hover:text-emerald-400 hover:border-emerald-400/40 transition-colors"
+                aria-label="WhatsApp"
+              >
+                <FaWhatsapp className="w-4 h-4" />
+              </a>
             </div>
-            {/* .End Card Contact  */}
-            <div className="row">
-              <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4 py-3 py-md-5 pe-xl-5 text-center">
-                <div className="footer-about">
-                  <h3 className="text-white fs-20 fw-semibold link-title mb-3 position-relative">
-                    Gulraiz Naveed
-                  </h3>
-                  <div className=" mb-3 d-inline-block">
-                    {/* Start Qr Code Image */}
-                    <img
-                      src="assets/img/gulli/7.jpeg/"
-                      className="mb-0 object-cover h-[20vh] rounded-lg"
-                      height="146"
-                      width="146"
-                      alt="..."
-                    />
-                    {/* /End Qr Code Image */}
-                  </div>
-                  <p className="text-gray-400">
-                    Get in touch with me to discover more.
-                  </p>
-                  <Link className="email-link d-block fw-medium mb-1" href="#">
-                    <i className="fa-solid fa-phone me-2"></i>
-                    <span className="text-gray-400">+971 58 522 0047</span>
-                  </Link>
-                  <Link className=" email-link d-block fw-medium" href="#">
-                    <i className="fa-solid fa-envelope me-2"></i>
-                    <span className="text-gray-400">
-                      therealtaholic@gmail.com
-                    </span>
-                  </Link>
-                </div>
+          </div>
+
+          {/* Col 2: Navigation Links */}
+          <div className="lg:col-span-3 space-y-3">
+            <span className="text-xs uppercase tracking-[0.2em] text-white font-semibold block mb-2">
+              Navigation
+            </span>
+            <ul className="space-y-2 text-xs">
+              <li>
+                <a href="#overview" className="hover:text-gold-300 transition-colors">Overview</a>
+              </li>
+              <li>
+                <a href="#advisor" className="hover:text-gold-300 transition-colors">About Gulraiz Naveed</a>
+              </li>
+              <li>
+                <a href="#portfolio" className="hover:text-gold-300 transition-colors">Curated Prime Portfolio</a>
+              </li>
+              <li>
+                <a href="#developers" className="hover:text-gold-300 transition-colors">Developer Partnerships</a>
+              </li>
+              <li>
+                <a href="#video-insights" className="hover:text-gold-300 transition-colors">Market Insights & Tours</a>
+              </li>
+              <li>
+                <a href="#team" className="hover:text-gold-300 transition-colors">The Advisory Team</a>
+              </li>
+              <li>
+                <a href="#consultation" className="hover:text-gold-300 transition-colors">VIP Consultation</a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Col 3: Dubai Office & Direct Contact */}
+          <div className="lg:col-span-4 space-y-3">
+            <span className="text-xs uppercase tracking-[0.2em] text-white font-semibold block mb-2">
+              Dubai Office & Advisory
+            </span>
+
+            <div className="space-y-2.5 text-xs text-zinc-300">
+              <div className="flex items-start gap-2.5">
+                <HiMapPin className="text-gold-400 w-4 h-4 shrink-0 mt-0.5" />
+                <span>Cresco Real Estate, Azizi Riviera, Meydan One, Dubai, UAE</span>
               </div>
 
-              <div className="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 py-3 py-md-5 d-lg-none d-xl-block">
-                <h3 className="text-white  fs-20 fw-semibold link-title mb-3 position-relative">
-                  Office Location
-                </h3>
-                {/* /Start Footer Link  */}
-
-                <ul className="footer-link list-unstyled menu mb-0 text-white ">
-                  <li className="mb-2">
-                    <Link href="" className="link d-block">
-                      <p>The Royal Peak, Azizi Rivera, Dubai</p>
-                    </Link>
-                  </li>
-                </ul>
-                {/* /.End Footer Link */}
+              <div className="flex items-center gap-2.5">
+                <HiPhone className="text-gold-400 w-4 h-4 shrink-0" />
+                <a href="tel:+971507771947" className="hover:text-gold-300 transition-colors">
+                  +971 50 777 1947
+                </a>
               </div>
-              <div className="col-6 col-sm-4 col-md-4 col-lg col-xl-2 py-3 py-md-5">
-                <h3 className="fs-20 fw-semibold link-title mb-3 position-relative text-white ">
-                  Connect with us
-                </h3>
-                {/* /Start Social Icon */}
-                <ul className="list-unstyled social-icon">
-                  <li>
-                    <Link
-                      href="https://www.instagram.com/therealtaholic/profilecard/?igsh=MTgzOGxkcmN5OHMxeg=="
-                      className="align-items-center d-flex flex gap-x-3"
-                    >
-                      <FaInstagram className="text-white text-2xl" />
-                      Instagram
-                    </Link>
-                  </li>
 
-                  <li>
-                    <Link
-                      href="https://youtube.com/@therealtaholic?si=W3WcaY9oPd4LLRaD"
-                      className="align-items-center d-flex flex gap-x-3"
-                    >
-                      <AiOutlineYoutube className="text-white text-2xl" />
-                      YouTube
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href={`https://wa.me/971585220047`}
-                      className="align-items-center d-flex gap-x-3"
-                    >
-                      <SiWhatsapp className="text-white text-2xl" />
-                      WhatsApp
-                    </Link>
-                  </li>
-                </ul>
-                {/* /.End Social Icon */}
+              <div className="flex items-center gap-2.5">
+                <HiEnvelope className="text-gold-400 w-4 h-4 shrink-0" />
+                <a href="mailto:therealtaholic@gmail.com" className="hover:text-gold-300 transition-colors">
+                  therealtaholic@gmail.com
+                </a>
               </div>
             </div>
-            <hr className="mb-0 mt-4" />
-            <div className="py-4">
-              {/* Start Sub Footer Nav */}
 
-              {/*  /. End Sub Footer Nav */}
-              <div className="align-items-center row mb-2">
-                {/* Start Copy Rights Text */}
-                <div className="col-sm-auto copy text-sm">
-                  © 2024 Made By{" "}
-                  <a
-                    className="font-bold text-red-500"
-                    href="https://devmatesolutions.com/"
-                  >
-                    DEVMATE SOLUTIONS
-                  </a>{" "}
-                  - ALL RIGHTS RESERVED
-                </div>
-                {/* /.End Copy Rights Text */}
+            <div className="pt-2">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/[0.03] border border-white/[0.08] text-[11px] text-zinc-400">
+                <HiShieldCheck className="text-emerald-400 w-4 h-4 shrink-0" />
+                <span>RERA Licensed & DLD Compliant Channel Partner</span>
               </div>
             </div>
           </div>
-        </footer>
-        {/* /.End Footer */}
-      </>
-    );
+
+        </div>
+
+        {/* Bottom Copyright & Disclaimer */}
+        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-zinc-500">
+          <div>
+            © {new Date().getFullYear()} <strong className="text-zinc-300 font-medium">The Realtaholic</strong> • Gulraiz Naveed. All rights reserved.
+          </div>
+
+          <div className="flex items-center gap-6">
+            <span>Dubai, United Arab Emirates</span>
+            <button
+              onClick={scrollToTop}
+              className="flex items-center gap-1.5 text-zinc-400 hover:text-gold-400 transition-colors"
+              aria-label="Scroll to top"
+            >
+              <span>Back to Top</span>
+              <FaArrowUp className="w-3 h-3" />
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+  );
 }
